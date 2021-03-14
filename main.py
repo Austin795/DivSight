@@ -13,7 +13,7 @@ class Portfolio:
     def addStocks(self, ticker, amountOwned):
         self.stocks[ticker] = amountOwned
 
-    # TODO: Wrote finviz get price function
+    # TODO: Write finviz get price function
     def getPrice(self, ticker):
         return finviz.get_stock(ticker)
 
